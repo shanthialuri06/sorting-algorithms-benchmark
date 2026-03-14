@@ -80,9 +80,9 @@ The experimental setup is designed to provide stable and comparable performance 
 ### 3.1. Machine Specifications
 
 *   **Operating System:** Windows 11
-*   **Model:** DELL G15 5530
-*   **Processor:** Intel Core i7-13650H
-*   **Graphics Card:** NVIDIA RTX 4050 Studio
+*   **Model:** HP Laptop 15s-fq4xxx
+*   **Processor:** Intel Core i5-1155G7
+*   **Graphics Card:** Intel(R) Iris(R) Xe Graphics
 
 
 ### 3.2. Timing Mechanism
@@ -258,10 +258,6 @@ After running the benchmark, the following outputs are generated:
 
 These outputs are stored inside the `graphs/` directory.
 
-## 6. License
+## 6. Contact Information
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 7. Contact Information
-
-For any inquiries, please contact: kowndinyamarepalli2007@gmail.com
+For any inquiries, please contact: pranathilagudu@gmail.com
