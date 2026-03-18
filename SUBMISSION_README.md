@@ -36,15 +36,15 @@ This package contains the source code and benchmarking tools used for the CS-253
    - Visualization plots will be available in `graphs/7_sorting_algo_comparisons/` and `graphs/quick_sort_analysis/`.
 
 ## Authors
-- Lagudu Pranathi(241CS130)
-- Bandi Jyothsna(241CS116)
+- Aluri Shanthi(241CS206)
+- Sornala Suhitha(241CS156)
 
 ---
 
 ### Terminal Output
 
 ```
-PS C:\Users\hp\Desktop\daa practical assignment\sorting-algorithms-benchmark> python benchmark.py
+PS C:\Users\shanthialuri\OneDrive\Desktop\DAA PRACTICAL ASSIGNMENT\sorting-algorithms-benchmark> python benchmark.py        
 Compiling sorting_algorithms\bubble_sort.c...
 Successfully compiled sorting_algorithms\bubble_sort.c to executables\bubble_sort
 Compiling sorting_algorithms\heap_sort.c...
@@ -68,357 +68,300 @@ Successfully compiled sorting_algorithms\quick_sort_random_pivot.c to executable
 
 Starting benchmarking...
 Benchmarking N=100, Type=random...
-  bubble_sort: Time = 0.000000 s, Comparisons = 4940
-  heap_sort: Time = 0.000000 s, Comparisons = 1037
-  insertion_sort: Time = 0.000000 s, Comparisons = 2565
-  merge_sort: Time = 0.000000 s, Comparisons = 542
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 718
+  bubble_sort: Time = 0.000000 s, Comparisons = 4859
+  heap_sort: Time = 0.000000 s, Comparisons = 1016
+  insertion_sort: Time = 0.000000 s, Comparisons = 2766
+  merge_sort: Time = 0.000000 s, Comparisons = 547
+  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 711
   radix_sort: Time = 0.000000 s, Comparisons = 99
   selection_sort: Time = 0.000000 s, Comparisons = 4950
-  quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 653
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 718
-  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 684
+  quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 672
+  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 711
+  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 667
 Benchmarking N=100, Type=reverse_sorted...
   bubble_sort: Time = 0.000000 s, Comparisons = 4950
   heap_sort: Time = 0.000000 s, Comparisons = 944
   insertion_sort: Time = 0.000000 s, Comparisons = 4950
-  merge_sort: Time = 0.000000 s, Comparisons = 316
+  merge_sort: Time = 0.000143 s, Comparisons = 316
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 868
   radix_sort: Time = 0.000000 s, Comparisons = 99
   selection_sort: Time = 0.000000 s, Comparisons = 4950
   quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 4950
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 868
-  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 694
+  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 631
 Benchmarking N=100, Type=sorted...
   bubble_sort: Time = 0.000000 s, Comparisons = 99
   heap_sort: Time = 0.000000 s, Comparisons = 1081
   insertion_sort: Time = 0.000000 s, Comparisons = 99
-  merge_sort: Time = 0.000000 s, Comparisons = 356
+  merge_sort: Time = 0.000143 s, Comparisons = 356
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 669
   radix_sort: Time = 0.000000 s, Comparisons = 99
-  selection_sort: Time = 0.001286 s, Comparisons = 4950
+  selection_sort: Time = 0.000000 s, Comparisons = 4950
   quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 4950
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 669
-  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 585
+  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 596
 Benchmarking N=500, Type=random...
-  bubble_sort: Time = 0.000714 s, Comparisons = 124344
-  heap_sort: Time = 0.000000 s, Comparisons = 7384
-  insertion_sort: Time = 0.000000 s, Comparisons = 61485
-  merge_sort: Time = 0.000000 s, Comparisons = 3846
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 5407
+  bubble_sort: Time = 0.001000 s, Comparisons = 124747
+  heap_sort: Time = 0.000143 s, Comparisons = 7424
+  insertion_sort: Time = 0.000143 s, Comparisons = 61475
+  merge_sort: Time = 0.000714 s, Comparisons = 3864
+  quick_sort_median_of_three_pivot: Time = 0.000143 s, Comparisons = 5400
   radix_sort: Time = 0.000000 s, Comparisons = 499
-  selection_sort: Time = 0.000000 s, Comparisons = 124750
-  quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 4919
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 5407
-  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 5283
+  selection_sort: Time = 0.000143 s, Comparisons = 124750
+  quick_sort_first_pivot: Time = 0.000143 s, Comparisons = 4464
+  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 5400
+  quick_sort_random_pivot: Time = 0.000143 s, Comparisons = 4456
 Benchmarking N=500, Type=reverse_sorted...
-  bubble_sort: Time = 0.000000 s, Comparisons = 124750
-  heap_sort: Time = 0.000000 s, Comparisons = 7010
-  insertion_sort: Time = 0.000000 s, Comparisons = 124750
+  bubble_sort: Time = 0.000286 s, Comparisons = 124750
+  heap_sort: Time = 0.000286 s, Comparisons = 7010
+  insertion_sort: Time = 0.000143 s, Comparisons = 124750
   merge_sort: Time = 0.000000 s, Comparisons = 2216
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 6790
   radix_sort: Time = 0.000000 s, Comparisons = 499
   selection_sort: Time = 0.000143 s, Comparisons = 124750
-  quick_sort_first_pivot: Time = 0.000429 s, Comparisons = 124750
+  quick_sort_first_pivot: Time = 0.000286 s, Comparisons = 124750
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 6790
-  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 4991
+  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 5076
 Benchmarking N=500, Type=sorted...
   bubble_sort: Time = 0.000000 s, Comparisons = 499
-  heap_sort: Time = 0.000000 s, Comparisons = 7756
+  heap_sort: Time = 0.000143 s, Comparisons = 7756
   insertion_sort: Time = 0.000000 s, Comparisons = 499
-  merge_sort: Time = 0.000000 s, Comparisons = 2272
+  merge_sort: Time = 0.000143 s, Comparisons = 2272
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 4263
   radix_sort: Time = 0.000000 s, Comparisons = 499
-  selection_sort: Time = 0.000000 s, Comparisons = 124750
-  quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 124750
+  selection_sort: Time = 0.000429 s, Comparisons = 124750
+  quick_sort_first_pivot: Time = 0.000286 s, Comparisons = 124750
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 4263
-  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 4857
+  quick_sort_random_pivot: Time = 0.000143 s, Comparisons = 5435
 Benchmarking N=1000, Type=random...
-  bubble_sort: Time = 0.001714 s, Comparisons = 499122
-  heap_sort: Time = 0.000000 s, Comparisons = 16826
-  insertion_sort: Time = 0.000143 s, Comparisons = 262256
-  merge_sort: Time = 0.002429 s, Comparisons = 8704
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 11247
-  radix_sort: Time = 0.000571 s, Comparisons = 999
-  selection_sort: Time = 0.002000 s, Comparisons = 499500
-  quick_sort_first_pivot: Time = 0.000286 s, Comparisons = 11604
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 11247
-  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 11223
+  bubble_sort: Time = 0.003000 s, Comparisons = 498015
+  heap_sort: Time = 0.000143 s, Comparisons = 16911
+  insertion_sort: Time = 0.000429 s, Comparisons = 246495
+  merge_sort: Time = 0.000857 s, Comparisons = 8733
+  quick_sort_median_of_three_pivot: Time = 0.000143 s, Comparisons = 11016
+  radix_sort: Time = 0.000143 s, Comparisons = 999
+  selection_sort: Time = 0.001000 s, Comparisons = 499500
+  quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 10893
+  quick_sort_median_of_three_pivot: Time = 0.000143 s, Comparisons = 11016
+  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 11315
 Benchmarking N=1000, Type=reverse_sorted...
-  bubble_sort: Time = 0.002143 s, Comparisons = 499500
+  bubble_sort: Time = 0.003143 s, Comparisons = 499500
   heap_sort: Time = 0.000000 s, Comparisons = 15965
-  insertion_sort: Time = 0.000429 s, Comparisons = 499500
-  merge_sort: Time = 0.000429 s, Comparisons = 4932
+  insertion_sort: Time = 0.001286 s, Comparisons = 499500
+  merge_sort: Time = 0.000286 s, Comparisons = 4932
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 15849
   radix_sort: Time = 0.000000 s, Comparisons = 999
-  selection_sort: Time = 0.003429 s, Comparisons = 499500
-  quick_sort_first_pivot: Time = 0.004286 s, Comparisons = 499500
+  selection_sort: Time = 0.000714 s, Comparisons = 499500
+  quick_sort_first_pivot: Time = 0.001571 s, Comparisons = 499500
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 15849
-  quick_sort_random_pivot: Time = 0.000286 s, Comparisons = 11251
+  quick_sort_random_pivot: Time = 0.000143 s, Comparisons = 11568
 Benchmarking N=1000, Type=sorted...
   bubble_sort: Time = 0.000000 s, Comparisons = 999
   heap_sort: Time = 0.000000 s, Comparisons = 17583
   insertion_sort: Time = 0.000000 s, Comparisons = 999
-  merge_sort: Time = 0.001286 s, Comparisons = 5044
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 9520
+  merge_sort: Time = 0.000286 s, Comparisons = 5044
+  quick_sort_median_of_three_pivot: Time = 0.000143 s, Comparisons = 9520
   radix_sort: Time = 0.000000 s, Comparisons = 999
-  selection_sort: Time = 0.001714 s, Comparisons = 499500
-  quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 499500
+  selection_sort: Time = 0.001286 s, Comparisons = 499500
+  quick_sort_first_pivot: Time = 0.000571 s, Comparisons = 499500
   quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 9520
-  quick_sort_random_pivot: Time = 0.000857 s, Comparisons = 11218
+  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 12224
 Benchmarking N=5000, Type=random...
-  bubble_sort: Time = 0.066286 s, Comparisons = 12496939
-  heap_sort: Time = 0.000000 s, Comparisons = 107711
-  insertion_sort: Time = 0.026429 s, Comparisons = 6105032
-  merge_sort: Time = 0.002857 s, Comparisons = 55269
-  quick_sort_median_of_three_pivot: Time = 0.001286 s, Comparisons = 70736
+  bubble_sort: Time = 0.049143 s, Comparisons = 12494260
+  heap_sort: Time = 0.001143 s, Comparisons = 107630
+  insertion_sort: Time = 0.017714 s, Comparisons = 6302243
+  merge_sort: Time = 0.001857 s, Comparisons = 55242
+  quick_sort_median_of_three_pivot: Time = 0.001143 s, Comparisons = 69275
   radix_sort: Time = 0.000571 s, Comparisons = 4999
-  selection_sort: Time = 0.035286 s, Comparisons = 12497500
-  quick_sort_first_pivot: Time = 0.000000 s, Comparisons = 68925
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 70736
-  quick_sort_random_pivot: Time = 0.002571 s, Comparisons = 70619
+  selection_sort: Time = 0.022714 s, Comparisons = 12497500
+  quick_sort_first_pivot: Time = 0.001429 s, Comparisons = 68132
+  quick_sort_median_of_three_pivot: Time = 0.000857 s, Comparisons = 69275
+  quick_sort_random_pivot: Time = 0.000571 s, Comparisons = 67787
 Benchmarking N=5000, Type=reverse_sorted...
-  bubble_sort: Time = 0.064000 s, Comparisons = 12497500
-  heap_sort: Time = 0.001143 s, Comparisons = 103227
-  insertion_sort: Time = 0.036571 s, Comparisons = 12497500
-  merge_sort: Time = 0.001286 s, Comparisons = 29804
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 106182
-  radix_sort: Time = 0.000000 s, Comparisons = 4999
-  selection_sort: Time = 0.029429 s, Comparisons = 12497500
-  quick_sort_first_pivot: Time = 0.045143 s, Comparisons = 12497500
-  quick_sort_median_of_three_pivot: Time = 0.000286 s, Comparisons = 106182
-  quick_sort_random_pivot: Time = 0.000429 s, Comparisons = 73399
+  bubble_sort: Time = 0.053286 s, Comparisons = 12497500
+  heap_sort: Time = 0.001429 s, Comparisons = 103227
+  insertion_sort: Time = 0.031429 s, Comparisons = 12497500
+  merge_sort: Time = 0.001714 s, Comparisons = 29804
+  quick_sort_median_of_three_pivot: Time = 0.000571 s, Comparisons = 106182
+  radix_sort: Time = 0.000571 s, Comparisons = 4999
+  selection_sort: Time = 0.023000 s, Comparisons = 12497500
+  quick_sort_first_pivot: Time = 0.042143 s, Comparisons = 12497500
+  quick_sort_median_of_three_pivot: Time = 0.000714 s, Comparisons = 106182
+  quick_sort_random_pivot: Time = 0.000714 s, Comparisons = 69056
 Benchmarking N=5000, Type=sorted...
   bubble_sort: Time = 0.000000 s, Comparisons = 4999
-  heap_sort: Time = 0.000714 s, Comparisons = 112126
+  heap_sort: Time = 0.001429 s, Comparisons = 112126
   insertion_sort: Time = 0.000000 s, Comparisons = 4999
-  merge_sort: Time = 0.001286 s, Comparisons = 32004
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 60678
-  radix_sort: Time = 0.000000 s, Comparisons = 4999
-  selection_sort: Time = 0.039571 s, Comparisons = 12497500
-  quick_sort_first_pivot: Time = 0.042000 s, Comparisons = 12497500
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 60678
-  quick_sort_random_pivot: Time = 0.002143 s, Comparisons = 70518
+  merge_sort: Time = 0.002429 s, Comparisons = 32004
+  quick_sort_median_of_three_pivot: Time = 0.000143 s, Comparisons = 60678
+  radix_sort: Time = 0.000143 s, Comparisons = 4999
+  selection_sort: Time = 0.023857 s, Comparisons = 12497500
+  quick_sort_first_pivot: Time = 0.017429 s, Comparisons = 12497500
+  quick_sort_median_of_three_pivot: Time = 0.000571 s, Comparisons = 60678
+  quick_sort_random_pivot: Time = 0.000714 s, Comparisons = 70687
 Benchmarking N=10000, Type=random...
-  bubble_sort: Time = 0.253000 s, Comparisons = 49989540
-  heap_sort: Time = 0.002286 s, Comparisons = 235355
-  insertion_sort: Time = 0.075571 s, Comparisons = 25103885
-  merge_sort: Time = 0.002000 s, Comparisons = 120538
-  quick_sort_median_of_three_pivot: Time = 0.001429 s, Comparisons = 151905
-  radix_sort: Time = 0.000000 s, Comparisons = 9999
-  selection_sort: Time = 0.141143 s, Comparisons = 49995000
-  quick_sort_first_pivot: Time = 0.001429 s, Comparisons = 167688
-  quick_sort_median_of_three_pivot: Time = 0.000286 s, Comparisons = 151905
-  quick_sort_random_pivot: Time = 0.000000 s, Comparisons = 166452
+  bubble_sort: Time = 0.240143 s, Comparisons = 49986089
+  heap_sort: Time = 0.003571 s, Comparisons = 235292
+  insertion_sort: Time = 0.068000 s, Comparisons = 25149713
+  merge_sort: Time = 0.004857 s, Comparisons = 120453
+  quick_sort_median_of_three_pivot: Time = 0.002000 s, Comparisons = 151973
+  radix_sort: Time = 0.000571 s, Comparisons = 9999
+  selection_sort: Time = 0.090857 s, Comparisons = 49995000
+  quick_sort_first_pivot: Time = 0.001857 s, Comparisons = 152407
+  quick_sort_median_of_three_pivot: Time = 0.001429 s, Comparisons = 151973
+  quick_sort_random_pivot: Time = 0.001571 s, Comparisons = 163961
 Benchmarking N=10000, Type=reverse_sorted...
-  bubble_sort: Time = 0.245286 s, Comparisons = 49995000
-  heap_sort: Time = 0.000000 s, Comparisons = 226682
-  insertion_sort: Time = 0.154286 s, Comparisons = 49995000
-  merge_sort: Time = 0.003857 s, Comparisons = 64608
-  quick_sort_median_of_three_pivot: Time = 0.000857 s, Comparisons = 234923
-  radix_sort: Time = 0.001429 s, Comparisons = 9999
-  selection_sort: Time = 0.127714 s, Comparisons = 49995000
-  quick_sort_first_pivot: Time = 0.224429 s, Comparisons = 49995000
-  quick_sort_median_of_three_pivot: Time = 0.000571 s, Comparisons = 234923
-  quick_sort_random_pivot: Time = 0.003429 s, Comparisons = 160531
+  bubble_sort: Time = 0.237714 s, Comparisons = 49995000
+  heap_sort: Time = 0.002286 s, Comparisons = 226682
+  insertion_sort: Time = 0.127000 s, Comparisons = 49995000
+  merge_sort: Time = 0.003571 s, Comparisons = 64608
+  quick_sort_median_of_three_pivot: Time = 0.001286 s, Comparisons = 234923
+  radix_sort: Time = 0.000571 s, Comparisons = 9999
+  selection_sort: Time = 0.098857 s, Comparisons = 49995000
+  quick_sort_first_pivot: Time = 0.168429 s, Comparisons = 49995000
+  quick_sort_median_of_three_pivot: Time = 0.001286 s, Comparisons = 234923
+  quick_sort_random_pivot: Time = 0.001571 s, Comparisons = 161961
 Benchmarking N=10000, Type=sorted...
-  bubble_sort: Time = 0.000000 s, Comparisons = 9999
-  heap_sort: Time = 0.001714 s, Comparisons = 244460
+  bubble_sort: Time = 0.000143 s, Comparisons = 9999
+  heap_sort: Time = 0.002429 s, Comparisons = 244460
   insertion_sort: Time = 0.000000 s, Comparisons = 9999
-  merge_sort: Time = 0.000571 s, Comparisons = 69008
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 131343
-  radix_sort: Time = 0.000857 s, Comparisons = 9999
-  selection_sort: Time = 0.137000 s, Comparisons = 49995000
-  quick_sort_first_pivot: Time = 0.122857 s, Comparisons = 49995000
-  quick_sort_median_of_three_pivot: Time = 0.000000 s, Comparisons = 131343
-  quick_sort_random_pivot: Time = 0.001000 s, Comparisons = 164699
+  merge_sort: Time = 0.003286 s, Comparisons = 69008
+  quick_sort_median_of_three_pivot: Time = 0.001000 s, Comparisons = 131343
+  radix_sort: Time = 0.000429 s, Comparisons = 9999
+  selection_sort: Time = 0.086571 s, Comparisons = 49995000
+  quick_sort_first_pivot: Time = 0.073143 s, Comparisons = 49995000
+  quick_sort_median_of_three_pivot: Time = 0.000143 s, Comparisons = 131343
+  quick_sort_random_pivot: Time = 0.000857 s, Comparisons = 151087
 Benchmarking N=25000, Type=random...
-  bubble_sort: Time = 2.004429 s, Comparisons = 312486554
-  heap_sort: Time = 0.007286 s, Comparisons = 654939
-  insertion_sort: Time = 0.516286 s, Comparisons = 155385138
-  merge_sort: Time = 0.011714 s, Comparisons = 334294
-  quick_sort_median_of_three_pivot: Time = 0.005429 s, Comparisons = 418267
-  radix_sort: Time = 0.000000 s, Comparisons = 24999
-  selection_sort: Time = 0.891429 s, Comparisons = 312487500
-  quick_sort_first_pivot: Time = 0.003429 s, Comparisons = 433110
-  quick_sort_median_of_three_pivot: Time = 0.005857 s, Comparisons = 418267
-  quick_sort_random_pivot: Time = 0.004714 s, Comparisons = 439755
+  bubble_sort: Time = 1.812143 s, Comparisons = 312414347
+  heap_sort: Time = 0.007714 s, Comparisons = 655052
+  insertion_sort: Time = 0.397143 s, Comparisons = 156262378
+  merge_sort: Time = 0.011143 s, Comparisons = 334228
+  quick_sort_median_of_three_pivot: Time = 0.004571 s, Comparisons = 412579
+  radix_sort: Time = 0.001714 s, Comparisons = 24999
+  selection_sort: Time = 0.555857 s, Comparisons = 312487500
+  quick_sort_first_pivot: Time = 0.004000 s, Comparisons = 424630
+  quick_sort_median_of_three_pivot: Time = 0.003857 s, Comparisons = 412579
+  quick_sort_random_pivot: Time = 0.004857 s, Comparisons = 418144
 Benchmarking N=25000, Type=reverse_sorted...
-  bubble_sort: Time = 1.879000 s, Comparisons = 312487500
-  heap_sort: Time = 0.003429 s, Comparisons = 633719
-  insertion_sort: Time = 0.938000 s, Comparisons = 312487500
-  merge_sort: Time = 0.009571 s, Comparisons = 178756
-  quick_sort_median_of_three_pivot: Time = 0.003286 s, Comparisons = 660758
-  radix_sort: Time = 0.003143 s, Comparisons = 24999
-  selection_sort: Time = 0.858000 s, Comparisons = 312487500
-  quick_sort_first_pivot: Time = 1.329857 s, Comparisons = 312487500
-  quick_sort_median_of_three_pivot: Time = 0.005714 s, Comparisons = 660758
-  quick_sort_random_pivot: Time = 0.002143 s, Comparisons = 426642
+  bubble_sort: Time = 1.357571 s, Comparisons = 312487500
+  heap_sort: Time = 0.006000 s, Comparisons = 633719
+  insertion_sort: Time = 0.795143 s, Comparisons = 312487500
+  merge_sort: Time = 0.007857 s, Comparisons = 178756
+  quick_sort_median_of_three_pivot: Time = 0.002714 s, Comparisons = 660758
+  radix_sort: Time = 0.001429 s, Comparisons = 24999
+  selection_sort: Time = 0.586143 s, Comparisons = 312487500
+  quick_sort_first_pivot: Time = 1.164143 s, Comparisons = 312487500
+  quick_sort_median_of_three_pivot: Time = 0.003714 s, Comparisons = 660758
+  quick_sort_random_pivot: Time = 0.003000 s, Comparisons = 443707
 Benchmarking N=25000, Type=sorted...
   bubble_sort: Time = 0.000000 s, Comparisons = 24999
-  heap_sort: Time = 0.007286 s, Comparisons = 677688
-  insertion_sort: Time = 0.000000 s, Comparisons = 24999
-  merge_sort: Time = 0.006571 s, Comparisons = 188476
-  quick_sort_median_of_three_pivot: Time = 0.002000 s, Comparisons = 366397
-  radix_sort: Time = 0.000286 s, Comparisons = 24999
-  selection_sort: Time = 0.896857 s, Comparisons = 312487500
-  quick_sort_first_pivot: Time = 0.812143 s, Comparisons = 312487500
-  quick_sort_median_of_three_pivot: Time = 0.000286 s, Comparisons = 366397
-  quick_sort_random_pivot: Time = 0.002714 s, Comparisons = 420305
+  heap_sort: Time = 0.006571 s, Comparisons = 677688
+  insertion_sort: Time = 0.000286 s, Comparisons = 24999
+  merge_sort: Time = 0.009714 s, Comparisons = 188476
+  quick_sort_median_of_three_pivot: Time = 0.001714 s, Comparisons = 366397
+  radix_sort: Time = 0.002000 s, Comparisons = 24999
+  selection_sort: Time = 0.594000 s, Comparisons = 312487500
+  quick_sort_first_pivot: Time = 0.274429 s, Comparisons = 312487500
+  quick_sort_median_of_three_pivot: Time = 0.001000 s, Comparisons = 366397
+  quick_sort_random_pivot: Time = 0.001143 s, Comparisons = 461717
 Benchmarking N=50000, Type=random...
-  bubble_sort: Time = 8.418857 s, Comparisons = 1249958710
-  heap_sort: Time = 0.012857 s, Comparisons = 1409503
-  insertion_sort: Time = 1.920857 s, Comparisons = 627403873
-  merge_sort: Time = 0.020857 s, Comparisons = 718279
-  quick_sort_median_of_three_pivot: Time = 0.006286 s, Comparisons = 904304
-  radix_sort: Time = 0.008714 s, Comparisons = 49999
-  selection_sort: Time = 3.629571 s, Comparisons = 1249975000
-  quick_sort_first_pivot: Time = 0.008143 s, Comparisons = 909232
-  quick_sort_median_of_three_pivot: Time = 0.007000 s, Comparisons = 904304
-  quick_sort_random_pivot: Time = 0.006143 s, Comparisons = 911873
+  bubble_sort: Time = 4.443429 s, Comparisons = 1249798879
+  heap_sort: Time = 0.010286 s, Comparisons = 1409516
+  insertion_sort: Time = 0.864143 s, Comparisons = 624039292
+  merge_sort: Time = 0.011000 s, Comparisons = 718043
+  quick_sort_median_of_three_pivot: Time = 0.004857 s, Comparisons = 879050
+  radix_sort: Time = 0.001857 s, Comparisons = 49999
+  selection_sort: Time = 1.193857 s, Comparisons = 1249975000
+  quick_sort_first_pivot: Time = 0.004143 s, Comparisons = 967666
+  quick_sort_median_of_three_pivot: Time = 0.003857 s, Comparisons = 879050
+  quick_sort_random_pivot: Time = 0.004286 s, Comparisons = 921077
 Benchmarking N=50000, Type=reverse_sorted...
-  bubble_sort: Time = 7.210286 s, Comparisons = 1249975000
-  heap_sort: Time = 0.011143 s, Comparisons = 1366047
-  insertion_sort: Time = 3.993429 s, Comparisons = 1249975000
-  merge_sort: Time = 0.013143 s, Comparisons = 382512
-  quick_sort_median_of_three_pivot: Time = 0.008571 s, Comparisons = 1433133
-  radix_sort: Time = 0.000429 s, Comparisons = 49999
-  selection_sort: Time = 3.510857 s, Comparisons = 1249975000
-  quick_sort_first_pivot: Time = 5.411000 s, Comparisons = 1249975000
-  quick_sort_median_of_three_pivot: Time = 0.003143 s, Comparisons = 1433133
-  quick_sort_median_of_three_pivot: Time = 0.006286 s, Comparisons = 904304
-  radix_sort: Time = 0.008714 s, Comparisons = 49999
-  selection_sort: Time = 3.629571 s, Comparisons = 1249975000
-  quick_sort_first_pivot: Time = 0.008143 s, Comparisons = 909232
-  quick_sort_median_of_three_pivot: Time = 0.007000 s, Comparisons = 904304
-  quick_sort_random_pivot: Time = 0.006143 s, Comparisons = 911873
-Benchmarking N=50000, Type=reverse_sorted...
-  bubble_sort: Time = 7.210286 s, Comparisons = 1249975000
-  heap_sort: Time = 0.011143 s, Comparisons = 1366047
-  insertion_sort: Time = 3.993429 s, Comparisons = 1249975000
-  merge_sort: Time = 0.013143 s, Comparisons = 382512
-  quick_sort_median_of_three_pivot: Time = 0.008571 s, Comparisons = 1433133
-  radix_sort: Time = 0.000429 s, Comparisons = 49999
-  selection_sort: Time = 3.510857 s, Comparisons = 1249975000
-  quick_sort_first_pivot: Time = 5.411000 s, Comparisons = 1249975000
-  quick_sort_median_of_three_pivot: Time = 0.003143 s, Comparisons = 1433133
-  quick_sort_random_pivot: Time = 0.006429 s, Comparisons = 912322
-Benchmarking N=50000, Type=reverse_sorted...
-  bubble_sort: Time = 7.210286 s, Comparisons = 1249975000
-  heap_sort: Time = 0.011143 s, Comparisons = 1366047
-  insertion_sort: Time = 3.993429 s, Comparisons = 1249975000
-  merge_sort: Time = 0.013143 s, Comparisons = 382512
-  quick_sort_median_of_three_pivot: Time = 0.008571 s, Comparisons = 1433133
-  radix_sort: Time = 0.000429 s, Comparisons = 49999
-  selection_sort: Time = 3.510857 s, Comparisons = 1249975000
-  quick_sort_first_pivot: Time = 5.411000 s, Comparisons = 1249975000
-  quick_sort_median_of_three_pivot: Time = 0.003143 s, Comparisons = 1433133
-  quick_sort_random_pivot: Time = 0.006429 s, Comparisons = 912322
-  merge_sort: Time = 0.013143 s, Comparisons = 382512
-  quick_sort_median_of_three_pivot: Time = 0.008571 s, Comparisons = 1433133
-  radix_sort: Time = 0.000429 s, Comparisons = 49999
-  selection_sort: Time = 3.510857 s, Comparisons = 1249975000
-  quick_sort_first_pivot: Time = 5.411000 s, Comparisons = 1249975000
-  quick_sort_median_of_three_pivot: Time = 0.003143 s, Comparisons = 1433133
-  quick_sort_random_pivot: Time = 0.006429 s, Comparisons = 912322
-  quick_sort_first_pivot: Time = 5.411000 s, Comparisons = 1249975000
-  quick_sort_median_of_three_pivot: Time = 0.003143 s, Comparisons = 1433133
-  quick_sort_random_pivot: Time = 0.006429 s, Comparisons = 912322
-  quick_sort_random_pivot: Time = 0.006429 s, Comparisons = 912322
+  bubble_sort: Time = 2.889143 s, Comparisons = 1249975000
+  heap_sort: Time = 0.006286 s, Comparisons = 1366047
+  insertion_sort: Time = 1.635000 s, Comparisons = 1249975000
+  merge_sort: Time = 0.006286 s, Comparisons = 382512
+  quick_sort_median_of_three_pivot: Time = 0.003000 s, Comparisons = 1433133
+  radix_sort: Time = 0.001429 s, Comparisons = 49999
+  selection_sort: Time = 1.167857 s, Comparisons = 1249975000
+  quick_sort_first_pivot: Time = 2.033143 s, Comparisons = 1249975000
+  quick_sort_median_of_three_pivot: Time = 0.002857 s, Comparisons = 1433133
+  quick_sort_random_pivot: Time = 0.002000 s, Comparisons = 902571
 Benchmarking N=50000, Type=sorted...
   bubble_sort: Time = 0.000000 s, Comparisons = 49999
-  heap_sort: Time = 0.014000 s, Comparisons = 1455438
+  heap_sort: Time = 0.006429 s, Comparisons = 1455438
   insertion_sort: Time = 0.000000 s, Comparisons = 49999
-  merge_sort: Time = 0.016714 s, Comparisons = 401952
-  quick_sort_median_of_three_pivot: Time = 0.002714 s, Comparisons = 782782
-  radix_sort: Time = 0.004286 s, Comparisons = 49999
-  selection_sort: Time = 3.685286 s, Comparisons = 1249975000
-  quick_sort_first_pivot: Time = 3.423857 s, Comparisons = 1249975000
+  merge_sort: Time = 0.006571 s, Comparisons = 401952
+  quick_sort_median_of_three_pivot: Time = 0.001857 s, Comparisons = 782782
+  radix_sort: Time = 0.001571 s, Comparisons = 49999
+  selection_sort: Time = 1.068429 s, Comparisons = 1249975000
+  quick_sort_first_pivot: Time = 1.024286 s, Comparisons = 1249975000
   quick_sort_median_of_three_pivot: Time = 0.002143 s, Comparisons = 782782
-  quick_sort_random_pivot: Time = 0.011143 s, Comparisons = 948082
+  quick_sort_random_pivot: Time = 0.002000 s, Comparisons = 910163
 Benchmarking N=75000, Type=random...
-  bubble_sort: Time = 20.187571 s, Comparisons = 2812274922
-  merge_sort: Time = 0.016714 s, Comparisons = 401952
-  quick_sort_median_of_three_pivot: Time = 0.002714 s, Comparisons = 782782
-  radix_sort: Time = 0.004286 s, Comparisons = 49999
-  selection_sort: Time = 3.685286 s, Comparisons = 1249975000
-  quick_sort_first_pivot: Time = 3.423857 s, Comparisons = 1249975000
-  quick_sort_median_of_three_pivot: Time = 0.002143 s, Comparisons = 782782
-  quick_sort_random_pivot: Time = 0.011143 s, Comparisons = 948082
-Benchmarking N=75000, Type=random...
-  bubble_sort: Time = 20.187571 s, Comparisons = 2812274922
-  quick_sort_first_pivot: Time = 3.423857 s, Comparisons = 1249975000
-  quick_sort_median_of_three_pivot: Time = 0.002143 s, Comparisons = 782782
-  quick_sort_random_pivot: Time = 0.011143 s, Comparisons = 948082
-Benchmarking N=75000, Type=random...
-  bubble_sort: Time = 20.187571 s, Comparisons = 2812274922
-Benchmarking N=75000, Type=random...
-  bubble_sort: Time = 20.187571 s, Comparisons = 2812274922
-  bubble_sort: Time = 20.187571 s, Comparisons = 2812274922
-  heap_sort: Time = 0.020000 s, Comparisons = 2200261
-  insertion_sort: Time = 4.764571 s, Comparisons = 1405670266
-  merge_sort: Time = 0.030143 s, Comparisons = 1121273
-  quick_sort_median_of_three_pivot: Time = 0.016143 s, Comparisons = 1408373
-  radix_sort: Time = 0.012429 s, Comparisons = 74999
-  selection_sort: Time = 9.120286 s, Comparisons = 2812462500
-  quick_sort_first_pivot: Time = 0.009571 s, Comparisons = 1459740
-  quick_sort_median_of_three_pivot: Time = 0.013000 s, Comparisons = 1408373
-  quick_sort_random_pivot: Time = 0.014571 s, Comparisons = 1438184
+  bubble_sort: Time = 9.758000 s, Comparisons = 2812335744
+  heap_sort: Time = 0.014143 s, Comparisons = 2200275
+  insertion_sort: Time = 1.925143 s, Comparisons = 1406072739
+  merge_sort: Time = 0.015714 s, Comparisons = 1121397
+  quick_sort_median_of_three_pivot: Time = 0.006857 s, Comparisons = 1376114
+  radix_sort: Time = 0.003571 s, Comparisons = 74999
+  selection_sort: Time = 2.518429 s, Comparisons = 2812462500
+  quick_sort_first_pivot: Time = 0.007857 s, Comparisons = 1466857
+  quick_sort_median_of_three_pivot: Time = 0.007286 s, Comparisons = 1376114
+  quick_sort_random_pivot: Time = 0.007571 s, Comparisons = 1417559
 Benchmarking N=75000, Type=reverse_sorted...
-  bubble_sort: Time = 19.568143 s, Comparisons = 2812462500
-  heap_sort: Time = 0.019857 s, Comparisons = 2138650
-  insertion_sort: Time = 10.490714 s, Comparisons = 2812462500
-  merge_sort: Time = 0.022857 s, Comparisons = 594612
-  quick_sort_median_of_three_pivot: Time = 0.007286 s, Comparisons = 2272487
-  radix_sort: Time = 0.001143 s, Comparisons = 74999
-  selection_sort: Time = 8.153429 s, Comparisons = 2812462500
-  quick_sort_first_pivot: Time = 22.884000 s, Comparisons = 2812462500
-  quick_sort_median_of_three_pivot: Time = 0.011143 s, Comparisons = 2272487
-  quick_sort_random_pivot: Time = 0.008000 s, Comparisons = 1464630
+  bubble_sort: Time = 6.964714 s, Comparisons = 2812462500
+  heap_sort: Time = 0.011857 s, Comparisons = 2138650
+  insertion_sort: Time = 4.112714 s, Comparisons = 2812462500
+  merge_sort: Time = 0.011286 s, Comparisons = 594612
+  quick_sort_median_of_three_pivot: Time = 0.004429 s, Comparisons = 2272487
+  radix_sort: Time = 0.002714 s, Comparisons = 74999
+  selection_sort: Time = 3.078714 s, Comparisons = 2812462500
+  quick_sort_first_pivot: Time = 5.474286 s, Comparisons = 2812462500
+  quick_sort_median_of_three_pivot: Time = 0.006000 s, Comparisons = 2272487
+  quick_sort_random_pivot: Time = 0.004143 s, Comparisons = 1474721
 Benchmarking N=75000, Type=sorted...
   bubble_sort: Time = 0.000000 s, Comparisons = 74999
-  heap_sort: Time = 0.016571 s, Comparisons = 2268087
-  insertion_sort: Time = 0.000000 s, Comparisons = 74999
-  merge_sort: Time = 0.027571 s, Comparisons = 624316
-  quick_sort_median_of_three_pivot: Time = 0.007143 s, Comparisons = 1195642
-  radix_sort: Time = 0.003714 s, Comparisons = 74999
-  selection_sort: Time = 13.026143 s, Comparisons = 2812462500
-  quick_sort_first_pivot: Time = 8.247143 s, Comparisons = 2812462500
-  quick_sort_median_of_three_pivot: Time = 0.003571 s, Comparisons = 1195642
-  quick_sort_random_pivot: Time = 0.009143 s, Comparisons = 1457487
+  heap_sort: Time = 0.009857 s, Comparisons = 2268087
+  insertion_sort: Time = 0.000143 s, Comparisons = 74999
+  merge_sort: Time = 0.009571 s, Comparisons = 624316
+  quick_sort_median_of_three_pivot: Time = 0.002143 s, Comparisons = 1195642
+  quick_sort_first_pivot: Time = 2.648143 s, Comparisons = 2812462500
+  quick_sort_median_of_three_pivot: Time = 0.002857 s, Comparisons = 1195642
+  quick_sort_random_pivot: Time = 0.003714 s, Comparisons = 1432318
 Benchmarking N=100000, Type=random...
-  bubble_sort: Time = 35.243429 s, Comparisons = 4999931085
-  heap_sort: Time = 0.029714 s, Comparisons = 3019624
-  insertion_sort: Time = 7.490429 s, Comparisons = 2500780850
-  merge_sort: Time = 0.039143 s, Comparisons = 1536387
-  quick_sort_median_of_three_pivot: Time = 0.016000 s, Comparisons = 1879008
-  radix_sort: Time = 0.011714 s, Comparisons = 99999
-  selection_sort: Time = 14.855857 s, Comparisons = 4999950000
-  quick_sort_first_pivot: Time = 0.015857 s, Comparisons = 2031159
-  quick_sort_median_of_three_pivot: Time = 0.013857 s, Comparisons = 1879008
-  quick_sort_random_pivot: Time = 0.016857 s, Comparisons = 2102663
+  bubble_sort: Time = 26.387714 s, Comparisons = 4999913415
+  heap_sort: Time = 0.021429 s, Comparisons = 3019574
+  insertion_sort: Time = 3.670714 s, Comparisons = 2502704618
+  merge_sort: Time = 0.025143 s, Comparisons = 1536282
+  quick_sort_median_of_three_pivot: Time = 0.011714 s, Comparisons = 1924166
+  radix_sort: Time = 0.004857 s, Comparisons = 99999
+  selection_sort: Time = 5.085571 s, Comparisons = 4999950000
+  quick_sort_first_pivot: Time = 0.010714 s, Comparisons = 2115913
+  quick_sort_median_of_three_pivot: Time = 0.010714 s, Comparisons = 1924166
+  quick_sort_random_pivot: Time = 0.010286 s, Comparisons = 2006394
 Benchmarking N=100000, Type=reverse_sorted...
-  bubble_sort: Time = 114.610000 s, Comparisons = 4999950000
-  heap_sort: Time = 0.013571 s, Comparisons = 2926640
-  insertion_sort: Time = 9.748857 s, Comparisons = 4999950000
-  merge_sort: Time = 0.016714 s, Comparisons = 815024
-  quick_sort_median_of_three_pivot: Time = 0.006857 s, Comparisons = 3107283
-  radix_sort: Time = 0.003714 s, Comparisons = 99999
-  selection_sort: Time = 8.665286 s, Comparisons = 4999950000
-  quick_sort_first_pivot: Time = 12.925000 s, Comparisons = 4999950000
-  quick_sort_median_of_three_pivot: Time = 0.008143 s, Comparisons = 3107283
-  quick_sort_random_pivot: Time = 0.009000 s, Comparisons = 1948031
+  bubble_sort: Time = 12.516429 s, Comparisons = 4999950000
+  heap_sort: Time = 0.013143 s, Comparisons = 2926640
+  insertion_sort: Time = 6.979286 s, Comparisons = 4999950000
+  merge_sort: Time = 0.012286 s, Comparisons = 815024
+  quick_sort_median_of_three_pivot: Time = 0.006000 s, Comparisons = 3107283
+  radix_sort: Time = 0.004143 s, Comparisons = 99999
+  selection_sort: Time = 5.041571 s, Comparisons = 4999950000
+  quick_sort_first_pivot: Time = 9.247857 s, Comparisons = 4999950000
+  quick_sort_median_of_three_pivot: Time = 0.006571 s, Comparisons = 3107283
+  quick_sort_random_pivot: Time = 0.007429 s, Comparisons = 2011616
 Benchmarking N=100000, Type=sorted...
-  bubble_sort: Time = 0.000000 s, Comparisons = 99999
-  heap_sort: Time = 0.016857 s, Comparisons = 3112517
-  insertion_sort: Time = 0.000000 s, Comparisons = 99999
-  merge_sort: Time = 0.020000 s, Comparisons = 853904
+  bubble_sort: Time = 0.000286 s, Comparisons = 99999
+  heap_sort: Time = 0.016000 s, Comparisons = 3112517
+  insertion_sort: Time = 0.000286 s, Comparisons = 99999
+  merge_sort: Time = 0.015286 s, Comparisons = 853904
+  quick_sort_median_of_three_pivot: Time = 0.004000 s, Comparisons = 1665551
+  radix_sort: Time = 0.003714 s, Comparisons = 99999
+  selection_sort: Time = 4.650143 s, Comparisons = 4999950000
+  quick_sort_first_pivot: Time = 4.057286 s, Comparisons = 4999950000
   quick_sort_median_of_three_pivot: Time = 0.003429 s, Comparisons = 1665551
-  radix_sort: Time = 0.005857 s, Comparisons = 99999
-  selection_sort: Time = 9.234714 s, Comparisons = 4999950000
-  quick_sort_first_pivot: Time = 8.019429 s, Comparisons = 4999950000
-  quick_sort_median_of_three_pivot: Time = 0.004429 s, Comparisons = 1665551
-  quick_sort_random_pivot: Time = 0.008714 s, Comparisons = 1920921
+  quick_sort_random_pivot: Time = 0.005143 s, Comparisons = 1949521
 
 Benchmarking complete. Generating plots...
 Generated plot: graphs\7_sorting_algo_comparisons\sorting_algorithms_average_case_(random_input)_case_time.png
@@ -475,208 +418,208 @@ Correlation Analysis:
 
 --- Benchmarking Results Table ---
                    Algorithm     Input Type  Input Size (N) Average Time (s) Average Comparisons
-                 Bubble Sort         Random             100         0.000000                4940
-                   Heap Sort         Random             100         0.000000                1037
-              Insertion Sort         Random             100         0.000000                2565
-                  Merge Sort         Random             100         0.000000                 542
-Quick Sort (Median of Three)         Random             100         0.000000                 718
+                 Bubble Sort         Random             100         0.000000                4859
+                   Heap Sort         Random             100         0.000000                1016
+              Insertion Sort         Random             100         0.000000                2766
+                  Merge Sort         Random             100         0.000000                 547
+Quick Sort (Median of Three)         Random             100         0.000000                 711
                   Radix Sort         Random             100         0.000000                  99
               Selection Sort         Random             100         0.000000                4950
                  Bubble Sort Reverse Sorted             100         0.000000                4950
                    Heap Sort Reverse Sorted             100         0.000000                 944
               Insertion Sort Reverse Sorted             100         0.000000                4950
-                  Merge Sort Reverse Sorted             100         0.000000                 316
+                  Merge Sort Reverse Sorted             100         0.000143                 316
 Quick Sort (Median of Three) Reverse Sorted             100         0.000000                 868
                   Radix Sort Reverse Sorted             100         0.000000                  99
               Selection Sort Reverse Sorted             100         0.000000                4950
                  Bubble Sort         Sorted             100         0.000000                  99
                    Heap Sort         Sorted             100         0.000000                1081
               Insertion Sort         Sorted             100         0.000000                  99
-                  Merge Sort         Sorted             100         0.000000                 356
+                  Merge Sort         Sorted             100         0.000143                 356
 Quick Sort (Median of Three)         Sorted             100         0.000000                 669
                   Radix Sort         Sorted             100         0.000000                  99
-              Selection Sort         Sorted             100         0.001286                4950
-                 Bubble Sort         Random             500         0.000714              124344
-                   Heap Sort         Random             500         0.000000                7384
-              Insertion Sort         Random             500         0.000000               61485
-                  Merge Sort         Random             500         0.000000                3846
-Quick Sort (Median of Three)         Random             500         0.000000                5407
+              Selection Sort         Sorted             100         0.000000                4950
+                 Bubble Sort         Random             500         0.001000              124747
+                   Heap Sort         Random             500         0.000143                7424
+              Insertion Sort         Random             500         0.000143               61475
+                  Merge Sort         Random             500         0.000714                3864
+Quick Sort (Median of Three)         Random             500         0.000143                5400
                   Radix Sort         Random             500         0.000000                 499
-              Selection Sort         Random             500         0.000000              124750
-                 Bubble Sort Reverse Sorted             500         0.000000              124750
-                   Heap Sort Reverse Sorted             500         0.000000                7010
-              Insertion Sort Reverse Sorted             500         0.000000              124750
+              Selection Sort         Random             500         0.000143              124750
+                 Bubble Sort Reverse Sorted             500         0.000286              124750
+                   Heap Sort Reverse Sorted             500         0.000286                7010
+              Insertion Sort Reverse Sorted             500         0.000143              124750
                   Merge Sort Reverse Sorted             500         0.000000                2216
 Quick Sort (Median of Three) Reverse Sorted             500         0.000000                6790
                   Radix Sort Reverse Sorted             500         0.000000                 499
               Selection Sort Reverse Sorted             500         0.000143              124750
                  Bubble Sort         Sorted             500         0.000000                 499
-                   Heap Sort         Sorted             500         0.000000                7756
+                   Heap Sort         Sorted             500         0.000143                7756
               Insertion Sort         Sorted             500         0.000000                 499
-                  Merge Sort         Sorted             500         0.000000                2272
+                  Merge Sort         Sorted             500         0.000143                2272
 Quick Sort (Median of Three)         Sorted             500         0.000000                4263
                   Radix Sort         Sorted             500         0.000000                 499
-              Selection Sort         Sorted             500         0.000000              124750
-                 Bubble Sort         Random            1000         0.001714              499122
-                   Heap Sort         Random            1000         0.000000               16826
-              Insertion Sort         Random            1000         0.000143              262256
-                  Merge Sort         Random            1000         0.002429                8704
-Quick Sort (Median of Three)         Random            1000         0.000000               11247
-                  Radix Sort         Random            1000         0.000571                 999
-              Selection Sort         Random            1000         0.002000              499500
-                 Bubble Sort Reverse Sorted            1000         0.002143              499500
+              Selection Sort         Sorted             500         0.000429              124750
+                 Bubble Sort         Random            1000         0.003000              498015
+                   Heap Sort         Random            1000         0.000143               16911
+              Insertion Sort         Random            1000         0.000429              246495
+                  Merge Sort         Random            1000         0.000857                8733
+Quick Sort (Median of Three)         Random            1000         0.000143               11016
+                  Radix Sort         Random            1000         0.000143                 999
+              Selection Sort         Random            1000         0.001000              499500
+                 Bubble Sort Reverse Sorted            1000         0.003143              499500
                    Heap Sort Reverse Sorted            1000         0.000000               15965
-              Insertion Sort Reverse Sorted            1000         0.000429              499500
-                  Merge Sort Reverse Sorted            1000         0.000429                4932
+              Insertion Sort Reverse Sorted            1000         0.001286              499500
+                  Merge Sort Reverse Sorted            1000         0.000286                4932
 Quick Sort (Median of Three) Reverse Sorted            1000         0.000000               15849
                   Radix Sort Reverse Sorted            1000         0.000000                 999
-              Selection Sort Reverse Sorted            1000         0.003429              499500
+              Selection Sort Reverse Sorted            1000         0.000714              499500
                  Bubble Sort         Sorted            1000         0.000000                 999
                    Heap Sort         Sorted            1000         0.000000               17583
               Insertion Sort         Sorted            1000         0.000000                 999
-                  Merge Sort         Sorted            1000         0.001286                5044
-Quick Sort (Median of Three)         Sorted            1000         0.000000                9520
+                  Merge Sort         Sorted            1000         0.000286                5044
+Quick Sort (Median of Three)         Sorted            1000         0.000143                9520
                   Radix Sort         Sorted            1000         0.000000                 999
-              Selection Sort         Sorted            1000         0.001714              499500
-                 Bubble Sort         Random            5000         0.066286            12496939
-                   Heap Sort         Random            5000         0.000000              107711
-              Insertion Sort         Random            5000         0.026429             6105032
-                  Merge Sort         Random            5000         0.002857               55269
-Quick Sort (Median of Three)         Random            5000         0.001286               70736
+              Selection Sort         Sorted            1000         0.001286              499500
+                 Bubble Sort         Random            5000         0.049143            12494260
+                   Heap Sort         Random            5000         0.001143              107630
+              Insertion Sort         Random            5000         0.017714             6302243
+                  Merge Sort         Random            5000         0.001857               55242
+Quick Sort (Median of Three)         Random            5000         0.001143               69275
                   Radix Sort         Random            5000         0.000571                4999
-              Selection Sort         Random            5000         0.035286            12497500
-                 Bubble Sort Reverse Sorted            5000         0.064000            12497500
-                   Heap Sort Reverse Sorted            5000         0.001143              103227
-              Insertion Sort Reverse Sorted            5000         0.036571            12497500
-                  Merge Sort Reverse Sorted            5000         0.001286               29804
-Quick Sort (Median of Three) Reverse Sorted            5000         0.000000              106182
-                  Radix Sort Reverse Sorted            5000         0.000000                4999
-              Selection Sort Reverse Sorted            5000         0.029429            12497500
+              Selection Sort         Random            5000         0.022714            12497500
+                 Bubble Sort Reverse Sorted            5000         0.053286            12497500
+                   Heap Sort Reverse Sorted            5000         0.001429              103227
+              Insertion Sort Reverse Sorted            5000         0.031429            12497500
+                  Merge Sort Reverse Sorted            5000         0.001714               29804
+Quick Sort (Median of Three) Reverse Sorted            5000         0.000571              106182
+                  Radix Sort Reverse Sorted            5000         0.000571                4999
+              Selection Sort Reverse Sorted            5000         0.023000            12497500
                  Bubble Sort         Sorted            5000         0.000000                4999
-                   Heap Sort         Sorted            5000         0.000714              112126
+                   Heap Sort         Sorted            5000         0.001429              112126
               Insertion Sort         Sorted            5000         0.000000                4999
-                  Merge Sort         Sorted            5000         0.001286               32004
-Quick Sort (Median of Three)         Sorted            5000         0.000000               60678
-                  Radix Sort         Sorted            5000         0.000000                4999
-              Selection Sort         Sorted            5000         0.039571            12497500
-                 Bubble Sort         Random           10000         0.253000            49989540
-                   Heap Sort         Random           10000         0.002286              235355
-              Insertion Sort         Random           10000         0.075571            25103885
-                  Merge Sort         Random           10000         0.002000              120538
-Quick Sort (Median of Three)         Random           10000         0.001429              151905
-                  Radix Sort         Random           10000         0.000000                9999
-              Selection Sort         Random           10000         0.141143            49995000
-                 Bubble Sort Reverse Sorted           10000         0.245286            49995000
-                   Heap Sort Reverse Sorted           10000         0.000000              226682
-              Insertion Sort Reverse Sorted           10000         0.154286            49995000
-                  Merge Sort Reverse Sorted           10000         0.003857               64608
-Quick Sort (Median of Three) Reverse Sorted           10000         0.000857              234923
-                  Radix Sort Reverse Sorted           10000         0.001429                9999
-              Selection Sort Reverse Sorted           10000         0.127714            49995000
-                 Bubble Sort         Sorted           10000         0.000000                9999
-                   Heap Sort         Sorted           10000         0.001714              244460
+                  Merge Sort         Sorted            5000         0.002429               32004
+Quick Sort (Median of Three)         Sorted            5000         0.000143               60678
+                  Radix Sort         Sorted            5000         0.000143                4999
+              Selection Sort         Sorted            5000         0.023857            12497500
+                 Bubble Sort         Random           10000         0.240143            49986089
+                   Heap Sort         Random           10000         0.003571              235292
+              Insertion Sort         Random           10000         0.068000            25149713
+                  Merge Sort         Random           10000         0.004857              120453
+Quick Sort (Median of Three)         Random           10000         0.002000              151973
+                  Radix Sort         Random           10000         0.000571                9999
+              Selection Sort         Random           10000         0.090857            49995000
+                 Bubble Sort Reverse Sorted           10000         0.237714            49995000
+                   Heap Sort Reverse Sorted           10000         0.002286              226682
+              Insertion Sort Reverse Sorted           10000         0.127000            49995000
+                  Merge Sort Reverse Sorted           10000         0.003571               64608
+Quick Sort (Median of Three) Reverse Sorted           10000         0.001286              234923
+                  Radix Sort Reverse Sorted           10000         0.000571                9999
+              Selection Sort Reverse Sorted           10000         0.098857            49995000
+                 Bubble Sort         Sorted           10000         0.000143                9999
+                   Heap Sort         Sorted           10000         0.002429              244460
               Insertion Sort         Sorted           10000         0.000000                9999
-                  Merge Sort         Sorted           10000         0.000571               69008
-Quick Sort (Median of Three)         Sorted           10000         0.000000              131343
-                  Radix Sort         Sorted           10000         0.000857                9999
-              Selection Sort         Sorted           10000         0.137000            49995000
-                 Bubble Sort         Random           25000         2.004429           312486554
-                   Heap Sort         Random           25000         0.007286              654939
-              Insertion Sort         Random           25000         0.516286           155385138
-                  Merge Sort         Random           25000         0.011714              334294
-Quick Sort (Median of Three)         Random           25000         0.005429              418267
-                  Radix Sort         Random           25000         0.000000               24999
-              Selection Sort         Random           25000         0.891429           312487500
-                 Bubble Sort Reverse Sorted           25000         1.879000           312487500
-                   Heap Sort Reverse Sorted           25000         0.003429              633719
-              Insertion Sort Reverse Sorted           25000         0.938000           312487500
-                  Merge Sort Reverse Sorted           25000         0.009571              178756
-Quick Sort (Median of Three) Reverse Sorted           25000         0.003286              660758
-                  Radix Sort Reverse Sorted           25000         0.003143               24999
-              Selection Sort Reverse Sorted           25000         0.858000           312487500
+                  Merge Sort         Sorted           10000         0.003286               69008
+Quick Sort (Median of Three)         Sorted           10000         0.001000              131343
+                  Radix Sort         Sorted           10000         0.000429                9999
+              Selection Sort         Sorted           10000         0.086571            49995000
+                 Bubble Sort         Random           25000         1.812143           312414347
+                   Heap Sort         Random           25000         0.007714              655052
+              Insertion Sort         Random           25000         0.397143           156262378
+                  Merge Sort         Random           25000         0.011143              334228
+Quick Sort (Median of Three)         Random           25000         0.004571              412579
+                  Radix Sort         Random           25000         0.001714               24999
+              Selection Sort         Random           25000         0.555857           312487500
+                 Bubble Sort Reverse Sorted           25000         1.357571           312487500
+                   Heap Sort Reverse Sorted           25000         0.006000              633719
+              Insertion Sort Reverse Sorted           25000         0.795143           312487500
+                  Merge Sort Reverse Sorted           25000         0.007857              178756
+Quick Sort (Median of Three) Reverse Sorted           25000         0.002714              660758
+                  Radix Sort Reverse Sorted           25000         0.001429               24999
+              Selection Sort Reverse Sorted           25000         0.586143           312487500
                  Bubble Sort         Sorted           25000         0.000000               24999
-                   Heap Sort         Sorted           25000         0.007286              677688
-              Insertion Sort         Sorted           25000         0.000000               24999
-                  Merge Sort         Sorted           25000         0.006571              188476
-Quick Sort (Median of Three)         Sorted           25000         0.002000              366397
-                  Radix Sort         Sorted           25000         0.000286               24999
-              Selection Sort         Sorted           25000         0.896857           312487500
-                 Bubble Sort         Random           50000         8.418857          1249958710
-                   Heap Sort         Random           50000         0.012857             1409503
-              Insertion Sort         Random           50000         1.920857           627403873
-                  Merge Sort         Random           50000         0.020857              718279
-Quick Sort (Median of Three)         Random           50000         0.006286              904304
-                  Radix Sort         Random           50000         0.008714               49999
-              Selection Sort         Random           50000         3.629571          1249975000
-                 Bubble Sort Reverse Sorted           50000         7.210286          1249975000
-                   Heap Sort Reverse Sorted           50000         0.011143             1366047
-              Insertion Sort Reverse Sorted           50000         3.993429          1249975000
-                  Merge Sort Reverse Sorted           50000         0.013143              382512
-Quick Sort (Median of Three) Reverse Sorted           50000         0.008571             1433133
-                  Radix Sort Reverse Sorted           50000         0.000429               49999
-              Selection Sort Reverse Sorted           50000         3.510857          1249975000
+                   Heap Sort         Sorted           25000         0.006571              677688
+              Insertion Sort         Sorted           25000         0.000286               24999
+                  Merge Sort         Sorted           25000         0.009714              188476
+Quick Sort (Median of Three)         Sorted           25000         0.001714              366397
+                  Radix Sort         Sorted           25000         0.002000               24999
+              Selection Sort         Sorted           25000         0.594000           312487500
+                 Bubble Sort         Random           50000         4.443429          1249798879
+                   Heap Sort         Random           50000         0.010286             1409516
+              Insertion Sort         Random           50000         0.864143           624039292
+                  Merge Sort         Random           50000         0.011000              718043
+Quick Sort (Median of Three)         Random           50000         0.004857              879050
+                  Radix Sort         Random           50000         0.001857               49999
+              Selection Sort         Random           50000         1.193857          1249975000
+                 Bubble Sort Reverse Sorted           50000         2.889143          1249975000
+                   Heap Sort Reverse Sorted           50000         0.006286             1366047
+              Insertion Sort Reverse Sorted           50000         1.635000          1249975000
+                  Merge Sort Reverse Sorted           50000         0.006286              382512
+Quick Sort (Median of Three) Reverse Sorted           50000         0.003000             1433133
+                  Radix Sort Reverse Sorted           50000         0.001429               49999
+              Selection Sort Reverse Sorted           50000         1.167857          1249975000
                  Bubble Sort         Sorted           50000         0.000000               49999
-                   Heap Sort         Sorted           50000         0.014000             1455438
+                   Heap Sort         Sorted           50000         0.006429             1455438
               Insertion Sort         Sorted           50000         0.000000               49999
-                  Merge Sort         Sorted           50000         0.016714              401952
-Quick Sort (Median of Three)         Sorted           50000         0.002714              782782
-                  Radix Sort         Sorted           50000         0.004286               49999
-              Selection Sort         Sorted           50000         3.685286          1249975000
-                 Bubble Sort         Random           75000        20.187571          2812274922
-                   Heap Sort         Random           75000         0.020000             2200261
-              Insertion Sort         Random           75000         4.764571          1405670266
-                  Merge Sort         Random           75000         0.030143             1121273
-Quick Sort (Median of Three)         Random           75000         0.016143             1408373
-                  Radix Sort         Random           75000         0.012429               74999
-              Selection Sort         Random           75000         9.120286          2812462500
-                 Bubble Sort Reverse Sorted           75000        19.568143          2812462500
-                   Heap Sort Reverse Sorted           75000         0.019857             2138650
-              Insertion Sort Reverse Sorted           75000        10.490714          2812462500
-                  Merge Sort Reverse Sorted           75000         0.022857              594612
-Quick Sort (Median of Three) Reverse Sorted           75000         0.007286             2272487
-                  Radix Sort Reverse Sorted           75000         0.001143               74999
-              Selection Sort Reverse Sorted           75000         8.153429          2812462500
+                  Merge Sort         Sorted           50000         0.006571              401952
+Quick Sort (Median of Three)         Sorted           50000         0.001857              782782
+                  Radix Sort         Sorted           50000         0.001571               49999
+              Selection Sort         Sorted           50000         1.068429          1249975000
+                 Bubble Sort         Random           75000         9.758000          2812335744
+                   Heap Sort         Random           75000         0.014143             2200275
+              Insertion Sort         Random           75000         1.925143          1406072739
+                  Merge Sort         Random           75000         0.015714             1121397
+Quick Sort (Median of Three)         Random           75000         0.006857             1376114
+                  Radix Sort         Random           75000         0.003571               74999
+              Selection Sort         Random           75000         2.518429          2812462500
+                 Bubble Sort Reverse Sorted           75000         6.964714          2812462500
+                   Heap Sort Reverse Sorted           75000         0.011857             2138650
+              Insertion Sort Reverse Sorted           75000         4.112714          2812462500
+                  Merge Sort Reverse Sorted           75000         0.011286              594612
+Quick Sort (Median of Three) Reverse Sorted           75000         0.004429             2272487
+                  Radix Sort Reverse Sorted           75000         0.002714               74999
+              Selection Sort Reverse Sorted           75000         3.078714          2812462500
                  Bubble Sort         Sorted           75000         0.000000               74999
-                   Heap Sort         Sorted           75000         0.016571             2268087
-              Insertion Sort         Sorted           75000         0.000000               74999
-                  Merge Sort         Sorted           75000         0.027571              624316
-Quick Sort (Median of Three)         Sorted           75000         0.007143             1195642
-                  Radix Sort         Sorted           75000         0.003714               74999
-              Selection Sort         Sorted           75000        13.026143          2812462500
-                 Bubble Sort         Random          100000        35.243429          4999931085
-                   Heap Sort         Random          100000         0.029714             3019624
-              Insertion Sort         Random          100000         7.490429          2500780850
-                  Merge Sort         Random          100000         0.039143             1536387
-Quick Sort (Median of Three)         Random          100000         0.016000             1879008
-                  Radix Sort         Random          100000         0.011714               99999
-              Selection Sort         Random          100000        14.855857          4999950000
-                 Bubble Sort Reverse Sorted          100000       114.610000          4999950000
-                   Heap Sort Reverse Sorted          100000         0.013571             2926640
-              Insertion Sort Reverse Sorted          100000         9.748857          4999950000
-                  Merge Sort Reverse Sorted          100000         0.016714              815024
-Quick Sort (Median of Three) Reverse Sorted          100000         0.006857             3107283
-                  Radix Sort Reverse Sorted          100000         0.003714               99999
-              Selection Sort Reverse Sorted          100000         8.665286          4999950000
-                 Bubble Sort         Sorted          100000         0.000000               99999
-                   Heap Sort         Sorted          100000         0.016857             3112517
-              Insertion Sort         Sorted          100000         0.000000               99999
-                  Merge Sort         Sorted          100000         0.020000              853904
-Quick Sort (Median of Three)         Sorted          100000         0.003429             1665551
-                  Radix Sort         Sorted          100000         0.005857               99999
-              Selection Sort         Sorted          100000         9.234714          4999950000
+                   Heap Sort         Sorted           75000         0.009857             2268087
+              Insertion Sort         Sorted           75000         0.000143               74999
+                  Merge Sort         Sorted           75000         0.009571              624316
+Quick Sort (Median of Three)         Sorted           75000         0.002143             1195642
+                  Radix Sort         Sorted           75000         0.002000               74999
+              Selection Sort         Sorted           75000         2.967143          2812462500
+                 Bubble Sort         Random          100000        26.387714          4999913415
+                   Heap Sort         Random          100000         0.021429             3019574
+              Insertion Sort         Random          100000         3.670714          2502704618
+                  Merge Sort         Random          100000         0.025143             1536282
+Quick Sort (Median of Three)         Random          100000         0.011714             1924166
+                  Radix Sort         Random          100000         0.004857               99999
+              Selection Sort         Random          100000         5.085571          4999950000
+                 Bubble Sort Reverse Sorted          100000        12.516429          4999950000
+                   Heap Sort Reverse Sorted          100000         0.013143             2926640
+              Insertion Sort Reverse Sorted          100000         6.979286          4999950000
+                  Merge Sort Reverse Sorted          100000         0.012286              815024
+Quick Sort (Median of Three) Reverse Sorted          100000         0.006000             3107283
+                  Radix Sort Reverse Sorted          100000         0.004143               99999
+              Selection Sort Reverse Sorted          100000         5.041571          4999950000
+                 Bubble Sort         Sorted          100000         0.000286               99999
+                   Heap Sort         Sorted          100000         0.016000             3112517
+              Insertion Sort         Sorted          100000         0.000286               99999
+                  Merge Sort         Sorted          100000         0.015286              853904
+Quick Sort (Median of Three)         Sorted          100000         0.004000             1665551
+                  Radix Sort         Sorted          100000         0.003714               99999
+              Selection Sort         Sorted          100000         4.650143          4999950000
 
 Full results table saved to graphs\csv_data\all_sorting_benchmark_results.csv
 
 --- Correlation Analysis Summary ---
 Algorithm                           | Correlation (r) | P-value
 ----------------------------------------------------------------------
-Bubble Sort                         |          0.8407 | 4.0455e-08
-Heap Sort                           |          0.9390 | 4.3162e-13
-Insertion Sort                      |          0.9525 | 2.0286e-14
-Merge Sort                          |          0.9595 | 2.8808e-15
-Quick Sort (Median of Three)        |          0.7443 | 8.5400e-06
-Radix Sort                          |          0.7427 | 9.1664e-06
-Selection Sort                      |          0.9288 | 2.8225e-12
+Bubble Sort                         |          0.9322 | 1.5655e-12
+Heap Sort                           |          0.9535 | 1.5871e-14
+Insertion Sort                      |          0.9985 | 4.0813e-33
+Merge Sort                          |          0.9516 | 2.5401e-14
+Quick Sort (Median of Three)        |          0.7797 | 1.6375e-06
+Radix Sort                          |          0.9564 | 7.0517e-15
+Selection Sort                      |          0.9963 | 4.0734e-28
 
 Interpretation:
   r close to 1.0: Strong positive correlation (more comparisons → more time)

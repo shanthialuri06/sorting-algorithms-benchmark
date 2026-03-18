@@ -79,9 +79,9 @@ The experimental setup is designed to provide stable and comparable performance 
 
 ### 3.1. Machine Specifications
 
-*   **Operating System:** Windows 11
-*   **Model:** HP Laptop 15s-fq4xxx
-*   **Processor:** Intel Core i5-1155G7
+*   **Operating System:** Microsoft Windows [Version 10.0.22631.4890]
+*   **Model:** 750XGK
+*   **Processor:** Intel64 Family 6 Model 186 Stepping 3 GenuineIntel ~1700 Mhz
 *   **Graphics Card:** Intel(R) Iris(R) Xe Graphics
 
 
@@ -260,4 +260,4 @@ These outputs are stored inside the `graphs/` directory.
 
 ## 6. Contact Information
 
-For any inquiries, please contact: pranathilagudu@gmail.com
+For any inquiries, please contact: shanthialuri06@gmail.com
